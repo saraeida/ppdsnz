@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- interface screen -ikut screen mobile
+-->
+<link href="css/jquery.mobile.min.css" rel="stylesheet" type="text/css"> 
+<!-- interface screen -ikut screen mobile-->
+
+<script src="js/jquery.min.js"></script> 
+<script src="js/jquery.mobile.min.js"></script>
+<!-- themes asas - hitam putih
+boleh multiple page dalam satu masa - guna id
+-->
+</head>
+
+<body>
+<!-- create page pertama dlm mobile
+id gambarkan id bagi page -->
+
+<div data-role="page" id="p1">
+	<div data-role="header" data-position="fixed">
+	<h3><Font color="red"> LAMAN UTAMA </Font></h3>
+	</div>
+	<div role="main" class="ui-content">
+	<h3><Font color="blue"> MANUAL BENGKEL ASAS e-PEMBELAJARAN </Font></h3>
+	<Font color="blue"> PUSAT PEMBELAJARAN DIGITAL SULTANAH NUR ZAHIRAH, UMT </Font><br>
+	<p><Font color="red"> Objektif Bengkel : </Font><br>
+	Peserta dapat menyediakan bahan-bahan pengajaran dalam sistem e-Pembelajaran terutamanya bahan e-Book, e-Jurnal, nota pengajaran dan sebagainya<br>
+	</p>
+	<p><Font color="red"> Instruktor: </Font><br>
+	 Dr. Noraida Haji Ali<br> 
+      - Ketua e-Pembelajaran, PPDSNZ, UMT <br>
+	</p>
+	<p><Font color="red"> Fasilitator : </Font><br>
+	<ol data-role="listview" data-insert="true">
+    <li>Mohd Hafriz Bin Nural Azhan</li>
+    <li>Mohd Asmawi Bin Abd Rahman</li>
+    <li>Ahmad Abd Rahim Bin Alias</li>
+    <li>Syed Mohd Helmi Bin Syed Md Akhir</li>
+    <li>Khairul Bukhari Bin Abd Hamid</li>
+	<li>Abd. Hadi Bin Ismail</li>
+</ol>
+<br>
+<!--
+	 Mohd Hafriz Bin Nural Azhan<br> 
+     Mohd Asmawi Bin Abd Rahman<br>
+	 Ahmad Abd Rahim Bin Alias<br>
+	 Syed Mohd Helmi Bin Syed Md Akhir<br>
+	 Khairul Bukhari Bin Abd Hamid<br>
+	 Abd. Hadi Bin Ismail<br>
+	</p>
+	-->
+	
+	<div class="ui-grid-b ui-responsive">
+     <div class="ui-block-a"> <a href ="#p2" class ="ui-btn" data-transition="flip">LOG IN  </a></div>
+	 <div class="ui-block-b"> <a href ="#p3" class ="ui-btn" data-transition="flip">COURSE ANNOUNCEMENT </a></div>
+	 <div class="ui-block-c"> <a href ="#p4" class ="ui-btn" data-transition="flip">PENETAPAN TOPIK </a></div>
+	</div>
+	</div>
+	<div data-role="footer" data-position="fixed">
+	<h3><Font color="magenta">Hakcipta:Jabatan e-Pembelajaran,PPDSNZ,UMT</Font></h3>
+	</div>
+</div>
+
+<!-- create page kedua dlm mobile-->
+<div data-role="page" id="p2">
+	<div data-role="header" data-position="fixed">
+	<h3><Font color="red"> LAMAN LOG-IN </Font></h3>
+	</div>
+	<div role="main" class="ui-content">
+	<h3><Font color="blue">URL: e-Pembelajaran.umt.edu.my (guna pelayar Mozila Firefox)</Font></h3>
+	
+	<p> Paparan berikut akan dipaparkan</p>
+	<img SRC="gambar/login1.jpg" width="400" />
+	<p> Paparan berikut akan dipaparkan</p>
+	<img SRC="gambar/login2.jpg" width="400" /> 
+	
+	<p> Kemaskini Profil</p>
+	<img SRC="gambar/profil1.jpg" />
+	<p> Klik pada bahagian Name</p>
+	Hanya bahagian ini sahaja yang boleh ditukar<br>
+	<img SRC="gambar/profil2.jpg" />
+	<p> Boleh masukkan gambar profil</p>
+	Boleh drag gambar profil ke bahagian berikut<br>
+	<img SRC="gambar/profil3.jpg" />
+    <a href ="#p1" class ="ui-btn" data-transition="turn">> Ke Laman Utama </a>
+	</div>
+	
+	<div data-role="footer" data-position="fixed">
+	<h3><Font color="magenta">Hakcipta:Jabatan e-Pembelajaran,PPDSNZ,UMT</Font></h3>
+	</div>
+</div>
+
+<!-- create page ketiga dlm mobile-->
+<div data-role="page" id="p3">
+	<div data-role="header" data-position="fixed">
+	<h3><Font color="red"> LAMAN COURSE ANNOUNCEMENT </Font></h3>
+	</div>
+	<div role="main" class="ui-content">
+	<h3><Font color="blue">Menetapkan pengumuman bagi setiap kursus</Font></h3>
+	<p> Ikut paparan yang seterusnya</p>
+    <a href ="#p1" class ="ui-btn" data-transition="slideup">> Ke Laman Utama </a>
+	</div>
+	<div data-role="footer" data-position="fixed">
+	<h3><Font color="magenta">Hakcipta:Jabatan e-Pembelajaran,PPDSNZ,UMT</Font></h3>
+	</div>
+</div>
+
+<!-- create page keempat dlm mobile-->
+<div data-role="page" id="p4">
+	<div data-role="header" data-position="fixed">
+	<h3><Font color="red"> LAMAN PENETAPAN TAJUK </Font></h3>
+	</div>
+	<div role="main" class="ui-content">
+	<h3><Font color="blue">Menetapkan nama topik dalam laman e-pembelajaran</Font></h3>
+	<p> Perlu ubah Nama Topic 1 kepada e-Book. Klik icon ini</p>
+         Paparan berikut dipaparkan. Ubah nama ‘Topic 1’ kepada nama ‘e-Book’<br>
+</p>
+    <a href ="#p1" class ="ui-btn" data-transition="slidefade">> Ke Laman Utama </a>
+	</div>
+	<div data-role="footer" data-position="fixed">
+	<h3><Font color="magenta">Hakcipta:Jabatan e-Pembelajaran,PPDSNZ,UMT</Font></h3>
+	</div>
+</div>
+</body>
+</html>
+
